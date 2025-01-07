@@ -1,0 +1,52 @@
+1. What is an API?
+UI         ->   api endpoints   <-   Backend
+(Front End)                           (Server Side)
+
+API
+Endpoints
+JSON contracts between UI and backend
+
+E.g. https://api.twitter.com/getTweets
+
+Public (anyone with valid credentials can use it):
+    Google Maps API
+    Twitter API
+    Weather API -> no need for registration
+    we can plug these into our applications
+
+Private (protected, we cannot access them over the internet freely):
+    xyz.com/api/getUsers
+        protected, certain username/passwords
+
+Hello World!
+    http://localhost:4000/getUsers
+        endpoint name: getUsers
+        port: 4000
+        domain name: 
+        http or https:
+            https is secured
+
+3. ExpressJS backend or frontend?
+    Node JS -> server side scripting using Javascript
+    Express JS is built on top of it
+    Express JS is a backend framework
+        server side
+    Express JS makes it easy to code at high level
+    Node is like going low level fundamental programming
+
+6. POSTMAN tool
+    95% of the world companies use POSTMAN tool for testing APIs
+    It's free distribution
+    Really powerful tool and a lot og things for testing APIs
+
+CRUD
+    Create - create new resource
+    Read - read resource from server
+    Update - update a resource
+    Delete - delete a resource
+
+HTTP Methods
+    POST - posting data from UI to server
+    GET - requesting data from server
+    PUT - update or modification of data
+    DELETE - deleting a resource based on a criteria or condition
