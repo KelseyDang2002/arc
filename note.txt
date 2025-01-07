@@ -50,3 +50,12 @@ HTTP Methods
     GET - requesting data from server
     PUT - update or modification of data
     DELETE - deleting a resource based on a criteria or condition
+
+Routing
+    a route is a section of Express code that associates an HTTP verb (GET, POST, etc.)
+    a URL path/pattern, and a function that is called to handle that pattern
+    Examples of Routes:
+        app.post('/create')
+        app.get('/users')
+        app.put('/user/update')
+        app.delete('/user/delete')
