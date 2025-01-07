@@ -20,6 +20,16 @@ app.get("/getUsers", (req, res) => {
     res.send('Hello World!');
 });
 
+app.get("/getTraining", (req, res) => {
+    var trainingObj = {
+        trainingId: 10,
+        trainingName: "Express Course",
+        active: true
+    }
+    
+    res.send(trainingObj);
+});
+
 // we are starting the app at port 4000
 // Node -> http.createServer
 app.listen(4000);
