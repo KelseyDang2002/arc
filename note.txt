@@ -59,3 +59,25 @@ Routing
         app.get('/users')
         app.put('/user/update')
         app.delete('/user/delete')
+
+Dynamic Routes
+    build URLs dynamically
+    pass parameters with colon and a variable (E.g., '/:id')
+    nodemon auto restarts node server if there are any changes
+    pattern matching using regular expressions (regex)
+    wild card routes, error handling
+
+Express JS as Middleware
+    Middleware functions are functions that have access to the request object (req),
+    response object (res), and the next middleware function in the application's
+    request-response cycle
+
+    UI -> Request -> API -> Middleware -> Handler
+
+    1. Security check of user's token/access/auth
+    2. Body parsing of the request
+    3. Sanitizing data
+    4. Logged - most common use case
+
+    It's just methods/functions
+    Ordering of the methods is the MOST crucial thing
